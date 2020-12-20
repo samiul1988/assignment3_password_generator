@@ -1,10 +1,7 @@
-# 03 JavaScript: Password Generator
+## Assignment 3: Password Generator (using Javascript)
+---
 
-Create an application that generates a random password based on user-selected criteria. This app will run in the browser and feature dynamically updated HTML and CSS powered by your JavaScript code. It will also feature a clean and polished user interface and be responsive, ensuring that it adapts to multiple screen sizes.
-
-If you are unfamiliar with special characters, take a look at [some examples](https://www.owasp.org/index.php/Password_special_characters).
-
-## User Story
+### User Story (Obtained from the assignment description)
 
 ```
 AS AN employee with access to sensitive data
@@ -12,7 +9,7 @@ I WANT to randomly generate a password that meets certain criteria
 SO THAT I can create a strong password that provides greater security
 ```
 
-## Acceptance Criteria
+### Acceptance Criteria (Obtained from the assignment description)
 
 ```
 GIVEN I need a new, secure password
@@ -32,17 +29,20 @@ WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 ```
 
-The following image demonstrates the application functionality:
-
+### Expected Final Outcome (Obtained from assignment instruction)
 ![password generator demo](./Assets/03-javascript-homework-demo.png)
 
-## Review
+## My Actions and Notes
 
-You are required to submit the following for review:
+* Obtained the starter code from Gitlab repo.
+* Modified the javascript file to meet the acceptance criteria
+* Basic considerations were as follows:
+    * When the user clicks "Generate Password" button, a series of prompt appears to collect length and character type information.
+    * The inputs are validated on-the-fly and information is stored in a global object
+    * If a particular character type is selected, then it is ensured that at least one character of that type will be present in the password
+    * The characters were selected randomly from appropriate list of characters 
+* I included "space" as part of special character set (may not be used in practice, but I considered all characters mentioned in [here](https://owasp.org/www-community/password-special-characters))
+* The task can be completed in different ways; however, I tried to use a similar structure that was presented in Module 3 lessons
 
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
-- - -
-© 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+### Repository URL
+[Click here to see the final outcome](https://samiul1988.github.io/assignment3_password_generator/)
