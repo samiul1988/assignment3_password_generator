@@ -30,7 +30,7 @@ THEN the password is either displayed in an alert or written to the page
 ```
 
 ### Expected Final Outcome (Obtained from assignment instruction)
-![password generator demo](./Assets/03-javascript-homework-demo.png)
+![password generator demo](./assets/03-javascript-homework-demo.png)
 
 ## My Actions and Notes
 
