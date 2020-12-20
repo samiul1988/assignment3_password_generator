@@ -58,7 +58,7 @@ var passwordObj = {
         var confirmSpecialCharacter = window.confirm("Include special characters to your password (including space)?");
         while (!confirmLowerCase && !confirmUpperCase && !confirmNumericCharacter && !confirmSpecialCharacter) {
             window.alert("Please select at least one character type...");
-            this.selectCharacterTypes();
+            return this.selectCharacterTypes();
         }
         this.isLowerCaseSelected = confirmLowerCase;
         this.isUpperCaseSelected = confirmUpperCase;
